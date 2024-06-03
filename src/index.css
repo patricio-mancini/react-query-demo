@@ -1,0 +1,59 @@
+/* Box sizing border box for all elements */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* Remove margin and padding */
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, figure, figcaption, blockquote, dl, dd {
+  margin: 0;
+  padding: 0;
+}
+
+/* Remove list styles */
+ul, ol {
+  list-style: none;
+}
+
+/* Remove default font styles */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 1rem;
+}
+
+/* Remove default hyperlink styles */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Remove default button styles */
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: inherit;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: none;
+  outline: none;
+}
+
+/* Remove default form styles */
+input, select, textarea {
+  border-radius: 0;
+  appearance: none;
+}
+
+/* Remove default image border */
+img {
+  border-style: none;
+}
+
+/* Responsive images */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+html, body, #root {
+  height: 100%;
+}
