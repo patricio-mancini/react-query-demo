@@ -11,7 +11,7 @@ npm install
 To start the project using the local development server, run:
 
 ```bash
-npm install
+npm start
 ```
 
 The application should now be accessible through [http://localhost:3000](http://localhost:3000) in the browser.
